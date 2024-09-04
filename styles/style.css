@@ -6106,6 +6106,9 @@ header {
 .theme-light .free-consulting-button a {
   color: #fff;
 }
+.theme-dark body{
+  background-color: #000;
+}
 
 .arrow-background {
   background-color: black;
