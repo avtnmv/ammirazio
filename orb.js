@@ -1,5 +1,5 @@
 const container = document.getElementById('container');
-for (let i = 0; i < 600; i++) {
+for (let i = 0; i < 350; i++) {
     const div = document.createElement('div');
     div.className = 'c';
     container.appendChild(div);
