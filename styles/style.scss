@@ -1,7 +1,7 @@
 // Общие переменные
-$total: 350; // total particles
+$total: 300; // total particles
 $orb-size: 150px;
-$particle-size: 3px;
+$particle-size: 4px;
 $time: 14s; 
 $base-hue: 0; // change for diff colors (180 is nice)
 
@@ -444,6 +444,7 @@ opacity: .5;
 
 .wrapper {
   background: var(--color-secondary);
+  overflow-x: hidden;
 }
 
 /* Переключатель тем */
