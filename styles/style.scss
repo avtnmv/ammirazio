@@ -1,5 +1,5 @@
 // Общие переменные
-$total: 300; // total particles
+$total: 270; // total particles
 $orb-size: 150px;
 $particle-size: 4px;
 $time: 14s; 
@@ -343,6 +343,28 @@ opacity: .5;
 .theme-dark .swiper-slide-content{
   background-color: rgb(198, 198, 198);
 }
+
+.custom-prev,
+.custom-next {
+    color: #000;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+.custom-prev.inactive,
+.custom-next.inactive {
+    color: #ccc;
+}
+
+.theme-dark .custom-prev.inactive, .theme-dark .custom-next.inactive{
+  color: #282828;
+}
 /*Slider*/
 
 .swiper {
@@ -508,3 +530,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+.our-team h2{
+  color: var(--font-color);
+  margin-top: 125px;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: normal;
+}
+
