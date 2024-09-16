@@ -6013,15 +6013,15 @@ input:checked + .slider:before {
   transition: .3s;
 }
 
-.theme-dark.close:hover,
-.theme-dark.close:focus {
+.theme-dark .close:hover,
+.theme-dark .close:focus {
   color: rgb(146, 252, 207);
   text-decoration: none;
   cursor: pointer;
 }
 
-.theme-light.close:hover,
-.theme-light.close:focus {
+.theme-light .close:hover,
+.theme-light .close:focus {
   color: #007aff;
   text-decoration: none;
   cursor: pointer;
