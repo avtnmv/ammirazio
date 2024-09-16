@@ -5940,4 +5940,196 @@ input:checked + .slider:before {
   margin-bottom: 40px;
   font-size: 60px;
   font-weight: normal;
-}/*# sourceMappingURL=style.css.map */
+}
+.our-team-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.our-team-container .our-team-card{
+  width: 400px;
+  height: 600px;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  transition: .2s ease-in-out;
+}
+.our-team-image{
+  width: 400px;
+  height: 450px;
+  border-radius: 25px;
+}
+.our-team-info h5{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.our-team-info p{
+  font-size: 16px;
+  text-align: center;
+  color: #757575;
+}
+.theme-dark .our-team-card{
+  background-color: #282828;;
+}
+.theme-dark .our-team-card h5{
+  color: #fff;
+}
+
+
+
+/* Стили для модального окна */
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;  /* Центрирование по горизонтали */
+  align-items: center;      /* Центрирование по вертикали */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  width: 750px;
+  height: 750px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 25px;
+
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(146, 252, 207);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.theme-dark .modal-content{
+  background-color: rgb(20, 20, 20);
+}
+.consultation-form{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.theme-dark .consultation-form input{
+  appearance: none;  
+  outline: none;
+  border: 1px solid rgb(36, 36, 36);
+  border-radius: 5px;
+  background-color: rgb(36, 36, 36);
+  height: 50px;
+  width: 400px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 14px;
+  transition: .3s ease-in-out;
+}
+.theme-dark .consultation-form textarea{
+  appearance: none;  
+  outline: none;
+  border: 1px solid rgb(36, 36, 36);
+  border-radius: 5px;
+  background-color: rgb(36, 36, 36);
+  height: 140px;
+  width: 450px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 14px;
+  transition: .3s ease-in-out;
+}
+.theme-dark .consultation-form textarea:focus{
+  color: #fff;
+  border: 1px solid rgb(146, 252, 207);
+}
+.theme-dark .consultation-form input:focus{
+  color: #fff;
+  border: 1px solid rgb(146, 252, 207);
+  font-weight: 500;
+}
+.theme-dark .submit-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1.5px solid rgb(146, 252, 207);
+  font-size: 18px;
+  background-color: rgb(146, 252, 207);
+  width: 265px;
+  height: 36px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.consultation-form{
+  margin-top: 40px;
+}
+.theme-dark .modal-content h2{
+  color: #fff;
+}
+
+.theme-light .consultation-form input{
+  appearance: none;  
+  outline: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  height: 50px;
+  width: 400px;
+  padding: 20px;
+  color: black;
+  font-size: 14px;
+  transition: .3s ease-in-out;
+}
+.theme-light .consultation-form input:focus{
+  color: black;
+  border: 1px solid #007aff;
+  font-weight: bold;
+}
+
+.theme-light .consultation-form textarea{
+  appearance: none;  
+  outline: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  height: 140px;
+  width: 450px;
+  padding: 20px;
+  color: black;
+  font-size: 14px;
+  transition: .3s ease-in-out;
+}
+.theme-light .consultation-form textarea:focus{
+  color: black;
+  border: 1px solid #007aff;
+}
+
+.theme-light .submit-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1.5px solid #007aff;
+  font-size: 18px;
+  background-color: #007aff;
+  width: 265px;
+  height: 36px;
+  padding-left: 10px;
+  color: #fff;
+}
