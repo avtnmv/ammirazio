@@ -1,4 +1,4 @@
-var swiper = new Swiper('.mySwiper', {
+let swiper = new Swiper('.mySwiper', {
   navigation: {
       nextEl: '.custom-next',
       prevEl: '.custom-prev',
