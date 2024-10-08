@@ -6472,5 +6472,24 @@ input:checked + .slider:before {
     .our-team-container .our-team-card{
       width: 320px;
     }
+    .theme-light .consultation-form input{
+      width: 320px;
+    }
+    .theme-light .consultation-form textarea{
+      width: 320px;
+    }
+    .theme-light .submit-button{
+      width: 320px;
+    }
+
+    .theme-dark .consultation-form input{
+      width: 320px;
+    }
+    .theme-dark .consultation-form textarea{
+      width: 320px;
+    }
+    .theme-dark .submit-button{
+      width: 320px;
+    }
   }
  
