@@ -50,6 +50,7 @@
     </div>
 
 
+
 <header>
     <div class="header-container">
         <div class="logo">
@@ -60,7 +61,7 @@
         <nav>
             <div class="navbar">
                 <ul class="nav-links">
-                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#about-us">Про нас</a></li>
                     <li><a href="#our-services">Нашi послуги</a></li>
                     <li><a href="#our-cases">Кейси</a></li>
                     <li><a href="#our-team">Наша команда</a></li>
@@ -77,7 +78,35 @@
             </div>
         </nav>
 
-       
+        <div class="burger-menu" id="burger-menu">
+            <div class="logo logo-burger"><img src="./images/logo.png" alt="logo"></div>
+            <ul>
+                <li><a href="#about-us">Про нас</a></li>
+                <li><a href="#our-services">Нашi послуги</a></li>
+                <li><a href="#our-cases">Кейси</a></li>
+                <li><a href="#our-team">Наша команда</a></li>
+                <li><a href="">Контакти</a></li>
+            </ul>
+    
+            <div class="dropdown-menu">
+                <div class="switch-theme-button-burger">
+                    <label id="switch" class="switch">
+                        <input type="checkbox" onchange="toggleTheme()" id="slider">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+<!--     
+                <div class="dropdown-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Pinterest</a>
+                    <a href="#">Instagram</a>
+                </div> -->
+            </div>
+        </div>
+        <div class="burger-icon" id="burger-icon">
+            <div class="burger-stick burger-stick1"></div>
+            <div class="burger-stick burger-stick2"></div>
+        </div>
        
     <div class="switch-theme-button">
         <label id="switch" class="switch">
@@ -94,11 +123,13 @@
 
 <div class="wrapper">
     <main>
+        <a name="about-us"></a>
         <div class="main-container">
         <section class="orb-container">
             <div class="about-us">
                 <h2>Ammirazio – креативна маркетингова компанія</h2>
                 <p>Ми переконані, що інтернет-маркетинг – це надійний інструмент для просування брендів, товарів і послуг у світі, що динамічно змінюється. Уявіть, що ваш сайт приносить стабільний потік відвідувачів, реклама генерує лідів, а новою зіркою соціальних мереж став ваш бренд</p>
+                <br>
                 <p>Наша місія – зробити так, щоб ваш бізнес не просто привертав увагу, а викликав довіру людей</p>
                 <div class="free-consulting-button"><a href="">Отримати консультацiю</a></div>
             </div>
@@ -277,6 +308,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./slider.js"></script>
     <script src="./orb.js"></script>
+    <script src="./burger-menu.js"></script>
 
 </body>
 </html>
