@@ -5443,7 +5443,7 @@
 }
 
 .logo {
-  align-self: center;
+  margin: auto;
 }
 
 .header-container {
@@ -5652,25 +5652,32 @@ ul li a {
 
 .more-details-button {
   display: flex;
-  border: 1px solid black;
-  border-radius: 25px;
   align-items: center;
-  justify-content: center;
-  padding: 5px;
-  width: 130px;
   transition: 0.2s ease-in-out;
-  background-color: rgb(146, 252, 207);
-  border: 1px solid rgb(146, 252, 207);
+  text-align: left;
+  color: #2F3031;
+  opacity: 0.4;
 }
-
+.line{
+  width: 20px;
+  height: 1px;
+  background-color: #2F3031;
+  opacity: 0.4;
+  margin-left: 15px;
+  margin-right: 15px ;
+}
+.theme-dark .line{
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.4;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 .more-details-button a {
   color: #000;
 }
 
-.theme-light .more-details-button {
-  background-color: #007aff;
-  border: 1px solid #007aff;
-}
 
 .theme-light .more-details-button a {
   color: #fff;
@@ -6332,9 +6339,8 @@ input:checked + .slider:before {
   opacity: 0;
   }
   .logo-burger{
-  margin-top: 15px;
   text-align: left;
-  padding-left: 24px;
+  padding-left: 25px;
   }
 
 
