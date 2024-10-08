@@ -6383,7 +6383,7 @@ input:checked + .slider:before {
     }
     .about-us h2{
       margin-top: 50px;
-      font-size: 35px;
+      font-size: 29px;
     }
     .about-us p{
       /* text-align: center; */
@@ -6399,7 +6399,7 @@ input:checked + .slider:before {
 
     }
     .our-team h2 {
-      font-size: 35px;
+      font-size: 29px;
       margin-top: 70px;
     }
     .content p{
@@ -6412,7 +6412,7 @@ input:checked + .slider:before {
       font-size: 14px;
     }
     .our-cases-h2{
-      font-size: 35px;
+      font-size: 29px;
       margin-top: 50px;
     }
     .content h3{
@@ -6429,7 +6429,7 @@ input:checked + .slider:before {
       align-items: center;
     }
     .our-services h2{
-      font-size: 35px;
+      font-size: 29px;
       margin-top: 70px;
     }
     .our-cases{
@@ -6461,13 +6461,16 @@ input:checked + .slider:before {
       width: 340px;
       margin: auto;
     }
-    
+    .navbar{
+      display: none;
+    }
+    .content{
+      width: 320px;
+      height: 340px;
+      padding: 22px;
+    }
+    .our-team-container .our-team-card{
+      width: 320px;
+    }
   }
-
-  
-
-@media (max-width: 1190px) {
-  .navbar{
-    display: none;
-  }
- }
+ 
