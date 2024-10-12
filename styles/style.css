@@ -6594,10 +6594,13 @@ gap: 16px;
       width: 320px;
     }
     .footer-logo{
-      width: 150px;
+    
+      display: none;
     }
     .theme-light footer h2, .theme-dark footer h2{
-      font-size: 36px;
+      font-size: 21px;
+    line-height: 30px;
     }
+
   }
  
