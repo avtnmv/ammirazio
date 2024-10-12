@@ -5756,6 +5756,7 @@ ul li a {
 
 .theme-dark .swiper-slide {
   background: #282828;
+  
 }
 
 .theme-dark .swiper-slide-content {
@@ -5812,14 +5813,18 @@ ul li a {
   align-items: center;
 }
 
+
+
+.swiper-slide-content{
+  width: 400px;
+  height: 300px;
+}
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
+  border-radius: 25px;
+  width: 480px;
 }
-
 .swiper-buttons {
   width: 100px;
   display: flex;
@@ -5897,8 +5902,8 @@ ul li a {
 .switch {
   position: relative;
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
 }
 
 /* Скрываем стандартный чекбокс */
@@ -5977,6 +5982,13 @@ input:checked + .slider:before {
   width: 400px;
   height: 350px;
   border-radius: 25px;
+}
+.our-team-image img{
+display: block;
+width: 400px;
+height: 350px;
+border-radius: 25px;
+object-fit: cover;
 }
 
 .our-team-info h5 {
@@ -6308,7 +6320,9 @@ input:checked + .slider:before {
   right: 0;
   bottom: 0;
   }
-  
+  .our-team-info{
+    margin-top: 16px;
+  }
   .burger-stick:nth-child(1) {
   top: 10px;
   }
@@ -6377,7 +6391,77 @@ input:checked + .slider:before {
 .theme-dark .burger-menu{
   background-color: #000;
 }
+.our-team{
+  margin-bottom: 125px;
+}
+.theme-light footer{
+  background: #F1F1F1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+.theme-dark footer{
+  background-color: #282828;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.theme-dark footer h2{
+  margin: auto;
+  text-align: center;
+  color: #000;
+font-size: 68px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px;
+color: #fff;
+}
+.theme-light footer h2{
+  margin: auto;
+  text-align: center;
+  color: #000;
+font-size: 68px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px;
+color: black;
+}
 
+footer p{
+  color: #9D9D9D;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 34px;
+  margin-bottom: 40px;
+}
+.footer-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.links-container{
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.link-container-first, .link-container-second{
+  display: flex;
+  gap: 16px;
+}
+.theme-dark .logo-link{
+  fill: rgb(146, 252, 207);
+}
   @media (max-width: 1190px) {
     .burger-icon {
         display: block;
@@ -6505,6 +6589,15 @@ input:checked + .slider:before {
     }
     .our-team-info h5{
       margin-bottom: 16px;
+    }
+    .our-team-image img{
+      width: 320px;
+    }
+    .footer-logo{
+      width: 150px;
+    }
+    .theme-light footer h2, .theme-dark footer h2{
+      font-size: 36px;
     }
   }
  
