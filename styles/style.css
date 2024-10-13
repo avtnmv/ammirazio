@@ -5760,7 +5760,7 @@ ul li a {
 }
 
 .theme-dark .swiper-slide-content {
-  background-color: rgb(198, 198, 198);
+  background-color: #282828;;
 }
 
 .custom-prev,
@@ -6600,6 +6600,9 @@ gap: 16px;
     .theme-light footer h2, .theme-dark footer h2{
       font-size: 21px;
     line-height: 30px;
+    }
+    .swiper-slide img{
+      width: 320px;
     }
 
   }
