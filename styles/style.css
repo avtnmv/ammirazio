@@ -5941,7 +5941,8 @@ ul li a {
 }
 
 input:checked + .slider:before {
-  background: url(../images/night-icon.svg);
+  background: white url(../images/night-icon.svg);
+  
   background-repeat: no-repeat;
   background-position: center;
 }
